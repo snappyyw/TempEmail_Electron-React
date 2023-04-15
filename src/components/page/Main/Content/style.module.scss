@@ -1,0 +1,65 @@
+.title {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.listEmail {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 70vh;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.tempEmail {
+  font-size: 16px;
+  line-height: 20px;
+  width: 700px;
+  border-bottom: 1px solid black;
+}
+
+.email {
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
